@@ -18,6 +18,6 @@
 ## 헬름 차트 저장소 등록하기
 
 ```bash
-$ helm repo add tnh https://tnh7575.github.io/helm-charts/stable
+$ helm repo add tnh https://tnh7575.github.io/helm-charts
 $ helm repo update
 ```
