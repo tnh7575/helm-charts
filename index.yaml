@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-30T10:30:23.61997926+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 0ff902e2cf195f2730b7981a79054a3385344f13e5535abd38b6e136ad9355f1
+    name: demo
+    type: application
+    urls:
+    - https://tnh7575.github.io/helm-charts/demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-30T10:30:23.618616579+09:00"
