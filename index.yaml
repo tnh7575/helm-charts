@@ -3,7 +3,7 @@ entries:
   grafana:
   - apiVersion: v1
     appVersion: 7.0.3
-    created: "2022-03-30T17:57:59.859867919+09:00"
+    created: "2022-03-31T15:35:19.995427287+09:00"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: a7080f72ec99d4d63ff17832d454a3d9a2f45d00751804315417076c6f34c142
     home: https://grafana.net
@@ -25,7 +25,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2022-03-30T17:57:59.868753963+09:00"
+    created: "2022-03-31T15:35:20.005861174+09:00"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -59,7 +59,7 @@ entries:
   metallb:
   - apiVersion: v2
     appVersion: 0.8.2
-    created: "2022-03-30T17:57:59.869749156+09:00"
+    created: "2022-03-31T15:35:20.007032268+09:00"
     description: unofficial helm chart of MetalLB, bare-metal LoadBalancer
     digest: ec024cc3d8bfbaa0a76ede1e78db3c78e6c9041e5258eb080b2ddb3d99e04f1a
     home: https://github.com/metallb/metallb
@@ -80,7 +80,7 @@ entries:
   prometheus:
   - apiVersion: v1
     appVersion: 2.19.0
-    created: "2022-03-30T17:57:59.879047018+09:00"
+    created: "2022-03-31T15:35:20.017480486+09:00"
     dependencies:
     - condition: kubeStateMetrics.enabled
       name: kube-state-metrics
@@ -105,4 +105,31 @@ entries:
     urls:
     - https://tnh7575.github.io/helm-charts/prometheus-11.6.0.tgz
     version: 11.6.0
-generated: "2022-03-30T17:57:59.85573213+09:00"
+  - apiVersion: v1
+    appVersion: 2.19.0
+    created: "2022-03-31T15:35:20.029820399+09:00"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://kubernetes-charts.storage.googleapis.com/
+      version: 2.8.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: d704d6fc44a004e693d56bb90ffa6e0ea89d57c85295d90a44c6825d636d46cb
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    urls:
+    - https://tnh7575.github.io/helm-charts/prometheus-testbed-11.6.0.tgz
+    version: 11.6.0
+generated: "2022-03-31T15:35:19.990579274+09:00"
