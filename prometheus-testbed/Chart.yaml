@@ -8,7 +8,7 @@ maintainers:
   name: gianrubio
 - email: zanhsieh@gmail.com
   name: zanhsieh
-name: prometheus
+name: prometheus-testbed
 sources:
 - https://github.com/prometheus/alertmanager
 - https://github.com/prometheus/prometheus
