@@ -302,7 +302,7 @@ alertmanager:
 
     loadBalancerIP: ""
     loadBalancerSourceRanges: []
-    servicePort: 8082
+    servicePort: 80
     # nodePort: 30000
     sessionAffinity: None
     type: ClusterIP
