@@ -5,4 +5,4 @@ speaker:
   image: metallb/speaker
   tag: v0.8.2
 configmap:
-  ipRange: 192.168.1.11-192.168.1.13
+  ipRange: 222.122.129.242-222.122.129.244
