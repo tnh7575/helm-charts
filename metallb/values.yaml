@@ -1,8 +1,8 @@
 controller:
-  image: metallb/controller
+  image: ghcr.io/tnh7575/metallb-controller
   tag: v0.8.2
 speaker:
-  image: metallb/speaker
+  image: ghcr.io/tnh7575/metallb-speaker
   tag: v0.8.2
 configmap:
   ipRange: 222.122.129.242-222.122.129.244
